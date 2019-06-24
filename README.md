@@ -1,6 +1,6 @@
 # 丰橙学院 ESlint 规则
 
-规范基于 AlloyTeam V2 的规则，某些规则做了调整。
+规范基于 AlloyTeam V2 的规则，某些规则可能会调整。
 相关文档可查看 [AlloyTeam ESLint 规则](https://github.com/AlloyTeam/eslint-config-alloy)。
 
 

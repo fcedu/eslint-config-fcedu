@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config-fcedu",
+  "name": "@fcedu/eslint-config-fcedu",
   "version": "0.0.1",
   "description": "Eslint config for fcedu based projects",
   "main": "index.js",
