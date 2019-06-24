@@ -1,0 +1,15 @@
+{
+  "name": "eslint-config-fcedu",
+  "version": "0.0.1",
+  "description": "Eslint config for fcedu based projects",
+  "main": "index.js",
+  "repository": "https://github.com/fcedu/eslint-config-fcedu",
+  "author": "fcedu",
+  "license": "MIT",
+  "scripts": {
+    "test": "node tests/test.js"
+  },
+  "peerDependencies": {
+    "eslint-config-alloy": "^2.0.4"
+  }
+}
