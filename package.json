@@ -1,6 +1,6 @@
 {
   "name": "@fcedu/eslint-config-fcedu",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Eslint config for fcedu based projects",
   "main": "index.js",
   "repository": "https://github.com/fcedu/eslint-config-fcedu",
@@ -11,5 +11,8 @@
   },
   "peerDependencies": {
     "eslint-config-alloy": "^2.0.4"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
