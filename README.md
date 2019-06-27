@@ -8,6 +8,15 @@
 都以 `.eslintrc.js` 配置文件为例。
 
 ### Vue
+
+#### 安装
+
+```bash
+yarn add --save-dev eslint babel-eslint vue-eslint-parser@5.0.0 eslint-plugin-vue eslint-config-alloy @fcedu/eslint-config-fcedu
+```
+
+#### 配置
+
 ```base
  ...
     extends: [
@@ -17,6 +26,15 @@
 ```
 
 ### React 
+
+#### 安装
+
+```bash
+yarn add --save-dev eslint babel-eslint eslint-plugin-react eslint-config-alloy @fcedu/eslint-config-fcedu
+```
+
+#### 配置
+
 ```javascript
 ...
     extends: [
@@ -26,6 +44,14 @@
 ```
 
 ### TypeScript 
+
+#### 安装
+
+```bash
+yarn add --save-dev eslint babel-eslint typescript @typescript-eslint/parser @typescript-eslint/eslint-plugin eslint-config-alloy @fcedu/eslint-config-fcedu
+```
+
+
 ```javascript
 ...
     extends: [
