@@ -7,17 +7,35 @@
 ## 使用
 都以 `.eslintrc.js` 配置文件为例。
 
+### 基础规则
+
+#### 安装
+```base
+yarn add -D eslint babel-eslint eslint-config-alloy @fcedu/eslint-config-fcedu
+```
+
+#### 使用
+
+```javascript
+...
+    extends: [
+        '@fcedu/eslint-config-fcedu',
+    ]
+...
+```
+
+
 ### Vue
 
 #### 安装
 
 ```bash
-yarn add --save-dev eslint babel-eslint vue-eslint-parser@5.0.0 eslint-plugin-vue eslint-config-alloy @fcedu/eslint-config-fcedu
+yarn add -D eslint babel-eslint vue-eslint-parser@5.0.0 eslint-plugin-vue eslint-config-alloy @fcedu/eslint-config-fcedu
 ```
 
 #### 配置
 
-```base
+```javascript
  ...
     extends: [
         '@fcedu/eslint-config-fcedu/vue',
@@ -30,7 +48,7 @@ yarn add --save-dev eslint babel-eslint vue-eslint-parser@5.0.0 eslint-plugin-vu
 #### 安装
 
 ```bash
-yarn add --save-dev eslint babel-eslint eslint-plugin-react eslint-config-alloy @fcedu/eslint-config-fcedu
+yarn add -D eslint babel-eslint eslint-plugin-react eslint-config-alloy @fcedu/eslint-config-fcedu
 ```
 
 #### 配置
@@ -48,7 +66,7 @@ yarn add --save-dev eslint babel-eslint eslint-plugin-react eslint-config-alloy 
 #### 安装
 
 ```bash
-yarn add --save-dev eslint babel-eslint typescript @typescript-eslint/parser @typescript-eslint/eslint-plugin eslint-config-alloy @fcedu/eslint-config-fcedu
+yarn add -D eslint babel-eslint typescript @typescript-eslint/parser @typescript-eslint/eslint-plugin eslint-config-alloy @fcedu/eslint-config-fcedu
 ```
 
 
