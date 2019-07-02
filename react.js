@@ -6,6 +6,7 @@ module.exports = {
     extends: [
         'eslint-config-alloy/react'
     ],
-    rules: {
-    }
+    plugins: [
+        'react-hooks'
+    ]
 }

@@ -2,7 +2,7 @@
 # yarn lockfile v1
 
 
-eslint-config-alloy@^2.0.4:
-  version "2.0.4"
-  resolved "https://registry.npmjs.org/eslint-config-alloy/-/eslint-config-alloy-2.0.4.tgz#f8dd1f4034a7035ccf5d6d658258fd961389ea0d"
-  integrity sha512-IE0/RekhnBfT33XP0OOcJwhfiu1XVRk03++UMCpkp1RzUgo989G9hArWBrkMT+By/DxjBx46WzFObS4k7gYc6A==
+eslint-plugin-react-hooks@^1.6.1:
+  version "1.6.1"
+  resolved "https://registry.npmjs.org/eslint-plugin-react-hooks/-/eslint-plugin-react-hooks-1.6.1.tgz#3c66a5515ea3e0a221ffc5d4e75c971c217b1a4c"
+  integrity sha512-wHhmGJyVuijnYIJXZJHDUF2WM+rJYTjulUTqF9k61d3BTk8etydz+M4dXUVH7M76ZRS85rqBTCx0Es/lLsrjnA==

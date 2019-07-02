@@ -10,7 +10,8 @@
     "test": "node tests/test.js"
   },
   "peerDependencies": {
-    "eslint-config-alloy": "^2.0.4"
+    "eslint-config-alloy": "^2.0.4",
+    "eslint-plugin-react-hooks": "^1.6.1"
   },
   "publishConfig": {
     "access": "public"
